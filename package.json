@@ -1,5 +1,5 @@
 {
-  "name": "react-keyed-file-browser-educa",
+  "name": "react-keyed-file-browser",
   "version": "1.10.0",
   "description": "Folder based file browser given a flat keyed list of objects, powered by React.",
   "main": "index.js",
@@ -40,8 +40,8 @@
     "react-i18next": "^9.0.10"
   },
   "peerDependencies": {
-    "react": "0.14.x || 15.x || 16.x",
-    "react-dom": "0.14.x || 15.x || 16.x"
+    "react": "0.14.x || 15.x || 16.x || 17.x",
+    "react-dom": "0.14.x || 15.x || 16.x || 17.x"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
