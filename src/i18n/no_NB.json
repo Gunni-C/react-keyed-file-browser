@@ -22,7 +22,7 @@
     "itemDetail"  : "Detaljer",
     "name" : "Navn",
 
-    "filterFiles" : "Filter",
+    "filterFiles" : "Søk etter filer",
 
     "noItemsInThisFolder" : "Det er ingen filer i denne mappen"
 }
