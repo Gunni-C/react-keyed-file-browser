@@ -458,7 +458,7 @@ class RawFileBrowser extends React.Component {
         activeAction: null,
       })
    
-      this.props.onDeselect()
+      this.props.onDeselect(event)
     }
   }
   handleActionBarRenameClick = (event) => {
