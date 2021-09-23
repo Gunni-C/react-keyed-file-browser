@@ -114,6 +114,7 @@ class RawFileBrowser extends React.Component {
     onUploadFile: PropTypes.oneOfType([PropTypes.func, PropTypes.bool]),
     onExternalViewerClick: PropTypes.oneOfType([PropTypes.func, PropTypes.bool]),
 
+    onDeselect: PropTypes.func,
     onSelect: PropTypes.func,
     onSelectFile: PropTypes.func,
     onSelectFolder: PropTypes.func,
@@ -168,6 +169,7 @@ class RawFileBrowser extends React.Component {
 
     onFolderOpen: (folder) => { }, // Folder opened
     onFolderClose: (folder) => { }, // Folder closed
+    onDeselect: () => { },
   }
 
   state = {
@@ -455,6 +457,8 @@ class RawFileBrowser extends React.Component {
         actionTargets: [],
         activeAction: null,
       })
+   
+      this.props.onDeselect()
     }
   }
   handleActionBarRenameClick = (event) => {
