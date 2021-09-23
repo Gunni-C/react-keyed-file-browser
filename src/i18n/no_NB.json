@@ -1,7 +1,7 @@
 {
 
     "noFiles" : "Ingen filer",
-    "noFilesMatching" : "Ingen filer funnet",
+    "noFilesMatching" : "Kunne ikke finne ",
     "file" : "Fil",
     "size": "Størrelse",
     "lastModified" : "Sist endret",
